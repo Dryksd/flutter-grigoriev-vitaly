@@ -16,7 +16,9 @@ class _SightListScreenState extends State<SightListScreen> {
         elevation: 0.0, //убрал тень
         title: new Text("Список\nинтересных мест",
         textAlign: TextAlign.left,
-        style: TextStyle(color: Colors.black),
+        style: TextStyle(color: Colors.black,
+                         fontSize: 32,
+                         fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.white,
       ),
